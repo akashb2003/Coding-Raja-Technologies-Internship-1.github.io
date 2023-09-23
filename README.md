@@ -1,3 +1,4 @@
 # Online Resume Builder
-Internship task 1 of Coding Raja Technologies <br>
+## Internship TASK 1 of Coding Raja Technologies
+<br>
 👉 <a href="https://akashb2003.github.io/Coding-Raja-Technologies-Internship-1.github.io/index.html">Click here</a> to view the website
