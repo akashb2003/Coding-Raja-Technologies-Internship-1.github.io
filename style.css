@@ -1,16 +1,3 @@
-/*
-#cv-form{
-     display:none; 
-}
-*/
-#cv-template{
-    display:none;
-}
-.myimg{
-    border:1px solid black;
-    border-radius: 50%;
-    width: 200px;   
-}
 .background{
     background-color:rgb(255, 255, 255);
     border-radius: 20px;
@@ -18,27 +5,17 @@
 body{
     background-color: #272829;
 }
-.ab{
-    background-color:#272829;
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+h1{
+    font-family: 'Londrina Sketch', cursive;
 }
-.form-control{
-    display: block;
-    width: 100%; /* THIS */
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555; /* THIS */
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc; /* THIS */
-    border-radius: 4px; /* THIS */
-  }
 
+h2 {
+    font-size: 3rem;
+    color: rgb(234, 177, 71);
+}
 
-  .glow-on-hover {
+.glow-on-hover {
     width: 220px;
     height: 50px;
     border: none;
@@ -98,21 +75,45 @@ body{
     100% { background-position: 0 0; }
 }
 
-h2 {
-    font-size: 3rem;
-    color: rgb(234, 177, 71);
+#template{
+    display:none;
 }
+
+.myimg{
+    border:1px solid black;
+    border-radius: 50%;
+    width: 200px;   
+}
+
+.details{
+    background-color:#272829;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-control{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #555;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+    border-radius: 4px;
+}
+
 
 label{
     color: white;
     font-size: 2rem;
     font-family: 'Londrina Sketch', cursive;
-    /* font-family: 'Roboto', sans-serif; */
 }
 
 .form-group{
     padding: 20px;
-    /* margin: 10px; */
 }
 
 .ink {
@@ -121,8 +122,4 @@ label{
     text-decoration: darkturquoise solid underline;
     -webkit-text-decoration-skip: ink;
     text-decoration-skip: ink;
-  }
-
-  h1{
-    font-family: 'Londrina Sketch', cursive;
   }

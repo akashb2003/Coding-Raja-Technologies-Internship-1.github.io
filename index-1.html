@@ -15,7 +15,7 @@
 <body>
 
 
-    <div class="ab p-3 mb-2 ">
+    <div class="details p-3 mb-2 ">
     </div>
         <hr/>
         <div class="container"  id = "cv-form">
@@ -25,32 +25,21 @@
             <div class="form-group">
                 <label for="nameField">Name </label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <input
-                type="text"
-                id = "nameField"
-                placeholder="Enter here" 
-                class = "form-control"
+                <input type="text" id = "nameField" placeholder="Enter here"  class = "form-control"
                 />
             </div>
             </div>
             <div class="form-group mt-2">
                 <label for="contactField">Contact Number</label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <input 
-                type="text" 
-                id = "contactField" 
-                placeholder="Enter here"
-                class = "form-control"
+                <input  type="text"  id = "contactField"  placeholder="Enter here" class = "form-control"
                 />
                 </div>
             </div>
             <div class="form-group mt-2">
                 <label for="addressField">Address </label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <textarea 
-                id = "addressField" 
-                placeholder="Enter here" 
-                class = "form-control"
+                <textarea id = "addressField" placeholder="Enter here" class = "form-control"
                 ></textarea>
             </div>
             </div>
@@ -66,33 +55,21 @@
             <div class="form-group mt-2">
                 <label for="fbField">Facebook link</label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <input 
-                type="text" 
-                id = "fbField" 
-                placeholder="Enter here"
-                class = "form-control"
+                <input type="text" id = "fbField" placeholder="Enter here"class = "form-control"
                 />
                 </div>
             </div>
             <div class="form-group mt-2">
                 <label for="gtField">Github link</label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <input 
-                type="text" 
-                id = "gtField" 
-                placeholder="Enter here"
-                class = "form-control"
+                <input type="text" id = "gtField" placeholder="Enter here"class = "form-control"
                 />
                 </div>
             </div>
             <div class="form-group mt-2">
                 <label for="lkField">Linkedin link</label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <input 
-                type="text" 
-                id = "lkField" 
-                placeholder="Enter here"
-                class = "form-control"
+                <input  type="text"  id = "lkField"  placeholder="Enter here" class = "form-control"
                 />
                 </div>
             </div>
@@ -104,10 +81,7 @@
             <div class="form-group mt-2">
                 <label for="">Objective  </label>
                 <div class="shadow p-0 mb-0 bg-white rounded">
-                <textarea 
-                id="objectiveField"
-                placeholder="Enter here" 
-                class = "form-control"
+                <textarea  id="objectiveField" placeholder="Enter here"  class = "form-control"
                 ></textarea>
                 </div>
             </div>
@@ -116,57 +90,39 @@
             <div class="form-group mt-2" id = "we">
              <label for = "">Work Experience  </label> 
              <div class="shadow p-0 mb-0 bg-white rounded">
-                 <textarea 
-                 placeholder="Enter here" 
-                class = "form-control weField"
+                 <textarea placeholder="Enter here" class = "form-control weField"
                   ></textarea>
                   </div>
 
 
              <div class="container text-center mt-2" id = "weAddButton"><br>
-            <button onclick="addNewWe()" class="glow-on-hover">
-             Add More
-             </button>
+            <button onclick="addNewWe()" class="glow-on-hover"> Add More </button>
              </div>
             </div>  
         
                     <div class="form-group mt-2" id = "aq">
                         <label for="aqField">Academic Qualification  </label>
                         <div class="shadow p-0 mb-0 bg-white rounded">
-                        <textarea 
-                        placeholder="Enter here" 
-                        class = "form-control aqField"
-                        ></textarea>
+                        <textarea placeholder="Enter here" class = "form-control aqField"></textarea>
                         </div>
 
                         <div class="container text-center mt-2" id = "aqAddButton"><br>
-                        <button onclick = "addNewAq()" class="glow-on-hover">
-                            Add More
-                        </button>
+                        <button onclick = "addNewAq()" class="glow-on-hover"> Add More</button>
                        
                         </div>
                     </div>
 
-                    <!--hobbies-->
                       <div class="form-group mt-2" id = "ec">
                         <label for="aqField">Extra Curricular Activities  </label>
                         <div class="shadow p-0 mb-0 bg-white rounded">
-                        <textarea 
-                        placeholder="Enter here" 
-                        class = "form-control ecField"
-                        ></textarea>
+                        <textarea placeholder="Enter here" class = "form-control ecField"></textarea>
                         </div>
 
                         <div class="container text-center mt-2" id = "ecAddButton"><br>
-                        <button onclick = "addNewec()" class="glow-on-hover">
-                            Add More
-                        </button>
+                        <button onclick = "addNewec()" class="glow-on-hover">Add More </button>
                        
                         </div>
                 </div>
-            
-      
-                
         </div>
     </div>
 </div>
@@ -175,14 +131,11 @@
     <button onclick = "generateCV()" class="btn btn-primary btn-lg">Generate CV</button>
 </div>
 
- 
-    <!--CV template-->
-<div class="container" id = "cv-template">
+<div class="container" id = "template">
         
         <div class="row">
        
             <div class="col-md-4 text-center py-5 background">
-                <!-- first col -->
             <img
             src="https://media.istockphoto.com/id/476085198/photo/businessman-silhouette-as-avatar-or-default-profile-picture.jpg?s=170667a&w=0&k=20&c=pbUvoKhdnGQ8IdDFqHYRm-m5zf51Ta6QUHERf9EU5FU="
             alt=""
@@ -208,10 +161,8 @@
             </div>
            
             <div class="col-md-8 py-5">
-                <!-- 2nd col -->
                 <h1 id = "nameT2" class="text-center"style = "font-weight:980" > </h1>
 
-                 <!-- objectibe card  -->
                 <div class="card mt-4">
                     <div class="card-header background">
                         <h3>Objective</h3>
@@ -221,7 +172,6 @@
                     </div>
                 </div> 
             
-                <!-- work experience -->
 
                 <div class="card mt-4">
                     <div class="card-header background">
@@ -234,7 +184,6 @@
                     </div>
                 </div>
 
-                <!-- Academic qualification  -->
                  <div class="card mt-4">
                     <div class="card-header background">
                         <h3>Academic Qualification</h3>
@@ -245,7 +194,6 @@
                     </div>
                 </div> 
 
-                 <!-- extra curricular  -->
                  <div class="card mt-4">
                     <div class="card-header background">
                         <h3>Extra Curricular Activities</h3>
@@ -258,7 +206,7 @@
 
                 <div class="container mt-3 text-center">
                     <button onclick = "printCV()" class="glow-on-hover">
-                        print cv
+                        Print
                     </button>
                 </div>
 
